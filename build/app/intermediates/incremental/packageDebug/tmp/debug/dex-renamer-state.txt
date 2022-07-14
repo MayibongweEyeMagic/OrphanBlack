@@ -1,4 +1,4 @@
-#Thu Jul 14 22:28:42 SAST 2022
-base.0=/home/mr-robot/Flutter projects/OrphanBlack/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+#Fri Jul 15 00:49:33 CAT 2022
+base.0=C\:\\Users\\Sibabalo\\AndroidStudioProjects\\OrphanBlack\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 renamed.0=classes.dex
 path.0=classes.dex

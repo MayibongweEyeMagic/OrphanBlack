@@ -1,6 +1,7 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'colors.dart';
+import 'forgot_password.dart';
 import 'patient_registration_page.dart';
 
 class Login extends StatelessWidget {
@@ -61,7 +62,12 @@ class Login extends StatelessWidget {
                       Container(
                         margin: EdgeInsets.only(right: 20),
                         child: InkWell(
-                          onTap: () {},
+                          onTap: () {
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(builder: (context) => const ForgotPasswordPage()),
+                            );
+                          },
                           child: Text(
                             "Forgot Password?",
                             style: TextStyle(
